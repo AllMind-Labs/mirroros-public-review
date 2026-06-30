@@ -1,6 +1,6 @@
-MirrorOS Public Review Page
+# MirrorOS Public Review Page
 
-Short Description
+## Short Description
 
 MirrorOS is an early-stage governance-before-action layer for AI agents.
 
@@ -10,49 +10,62 @@ MirrorOS is currently in private demo validation.
 
 ---
 
-Problem
+## The Problem
 
 AI agents are gaining the ability to use tools, access systems, trigger workflows, and make operational decisions.
 
-The problem is that many agentic systems still lack a clear control layer before action.
+That creates a serious control problem:
 
-MirrorOS is being built around a simple principle:
+Who governs the agent before it acts?
 
-Propose → Govern → Act → Log → Explain
-
-Instead of trusting an AI agent to act blindly, MirrorOS is designed to place a governance checkpoint between the agent’s intention and the action it wants to perform.
+MirrorOS is being built to explore that control layer.
 
 ---
 
-Current Demo Status
+## Core Loop
+
+MirrorOS follows a simple loop:
+
+**Propose → Govern → Act → Log → Explain**
+
+Instead of trusting an AI agent to act blindly, MirrorOS is designed to place a governance checkpoint between the agent’s requested action and the system that would execute that action.
+
+---
+
+## Demo Status
 
 MirrorOS has a private local demo showing the basic governance loop.
 
-The private demo is not public and does not include open code access at this stage.
+The demo is not publicly released.
 
-The current demo is intended for technical validation, reviewer feedback, and pilot-stage preparation.
-
----
-
-What I Am Looking For
-
-I am seeking technical reviewers, startup advisors, AI governance professionals, compliance-minded technologists, and software architecture reviewers who can provide direct feedback.
-
-The review request is intentionally small:
-
-20 minutes. Blunt feedback. No obligation.
-
-I am looking for feedback on:
-
-1. Whether the core loop is understandable.
-2. Whether the problem is real and clearly stated.
-3. Whether MirrorOS is best positioned as middleware, governance infrastructure, or an agent control layer.
-4. What parts are unclear, overclaimed, or need tightening.
-5. What would need to be improved before pilot-stage conversations.
+The current goal is technical validation, reviewer feedback, and pilot-stage preparation.
 
 ---
 
-Public / Private Boundary
+## Reviewer Request
+
+I am looking for a 20-minute technical sanity check.
+
+I am not asking for funding.
+
+I am not asking for free labor.
+
+I am looking for blunt feedback on whether the MirrorOS concept is understandable, credible, and worth tightening for pilot-stage conversations.
+
+Helpful reviewers may have experience with:
+
+- AI agents
+- Software architecture
+- Governance systems
+- Compliance
+- Security
+- Audit trails
+- Workflow automation
+- Technical product validation
+
+---
+
+## Public / Private Boundary
 
 This public page does not include:
 
@@ -61,30 +74,16 @@ This public page does not include:
 - Detailed architecture
 - Ledger internals
 - API keys
+- Database files
 - Local demo commands
 - Internal walkthroughs
-- Sensitive implementation details
 
 Those materials are private and are only shared with trusted reviewers when appropriate.
 
 ---
 
-Reviewer Ask
+## Contact
 
-If you have experience with AI agents, software architecture, governance, compliance, security, audit systems, workflow automation, or technical product validation, I would appreciate a short review.
-
-The ask is not for funding.
-
-The ask is not for free labor.
-
-The ask is a focused technical sanity check.
-
----
-
-Contact
-
-Founder: Erik Boehm
-Company: AllMind LLC
+Founder: Erik Boehm  
+Company: AllMind LLC  
 Project: MirrorOS
-
-If you are open to reviewing the private demo, please contact me directly.
